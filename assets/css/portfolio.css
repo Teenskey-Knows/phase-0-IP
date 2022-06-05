@@ -16,3 +16,88 @@
   display: flex;
 }
 
+.navBars{
+  display: flex;
+  font-display: row;
+  align-items: space-around;
+}
+
+.navLink{
+  text-decoration: none;
+  margin-left: 15rem;
+  margin-top: 0.9rem;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.navLink:hover{
+  color: blueviolet;
+}
+
+
+.orangeLine1{
+    background-color: #eb5f10;
+    width: 80%;
+    height: .3rem;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.paragraph1{
+  color: white;
+  font-size: 1.7rem;
+  margin-left: 16rem;
+  margin-top: 1rem;
+}
+
+.orangeLine2{
+  background-color: #eb5f10;
+  width: 80%;
+  height: .3rem;
+  margin-top: 1rem;
+  margin-left: 10rem;
+}
+.projectSection{
+  display: flex;
+  font-display: row;
+}
+
+.webProject{
+  margin-left: 15rem;
+  margin-top: 3rem;
+}
+.projectTitle{
+  color: white;
+  font-size: 1.9rem;
+}
+
+.image4{
+  width: 20rem;
+  height: 15rem;
+}
+
+.projectDescription{
+  background-color: rgba(175, 166, 166, 0.651);
+  height: 15rem;
+  width: 20rem;
+  
+}
+.projectDescriptionBackground{
+  background-color: #eb5f10;
+  margin-left: 2rem;
+  height:2rem;
+  width: 70%;
+  
+}
+
+.thisLink{
+  text-decoration: none;
+}
+.thisNav:hover{
+  color: blue;
+}
+
+.thisNav{
+  color: white;
+  font-size: 1.5rem;
+}
