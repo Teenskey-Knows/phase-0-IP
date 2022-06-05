@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.one {
+  background-image: url(/assets/images/background.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.main1 {
+  background-color: #eb5f10;
+  height: 3rem;
+  width: 100vw;
+  display: flex;
+
+}
+
+.navBarMain {
+  display: flex;
+  font-display: row;
+}
+
+.mybars {
+  margin-left: 15rem;
+  font-size: 1.8rem;
+  margin-top: 0.3rem;
+  
+}
+.barLinks{
+    text-decoration: none;
+    color: black;
+    
+}
+.barLinks:hover{
+    color: blueviolet;
+}
+
+.content-container-btn-orange-lines{
+    display: grid;
+
+}
+
+.orangeLine1{
+    background-color: #eb5f10;
+    width: 80%;
+    height: .3rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.description1{
+    display: flex;
+    color: white;
+    font-size: 1.9rem;
+    margin-left: 17rem;
+    margin-top: 1rem;
+}
+.background-Content{
+    background-color: rgba(21, 167, 212, 0.301);
+    margin-left: 15rem;
+    height: auto;
+    width: 60%;
+    margin-top: 1rem;
+    border-radius: 3rem;
+}
+
+
+.description2{
+    display: flex;
+    color: white;
+    
+    font-size: 1.9rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+}
+.orangeLine2{
+    background-color: #eb5f10;
+    width: 80%;
+    height: .3rem;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.section1-images-description-container{
+    display: flex;
+    font-display: row;
+}
+
+.image-2{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+
+.image-content{
+    display: flex;
+    font-display: row;
+}
+
+.background-for-image-content{
+    background-color: #eb5f10;
+    height: 9rem;
+    width: 13rem;
+    margin-left: .9rem;
+    margin-top: 3rem;
+    padding: 0.7rem;
+    border-radius: .7rem;
+
+}
+.paragraph-content{
+    color: white;
+    font-size: 1.5rem;
+}
+

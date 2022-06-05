@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .section2{
+    background-color: #1d0c01;
+    height: 100vh;
+    width: 100vw;
+}
+.orangeLine3{
+    background-color: #eb5f10;
+    width: 80%;
+    height: .3rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.orangeLine4{
+    background-color: #eb5f10;
+    width: 80%;
+    height: .3rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}  
