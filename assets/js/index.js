@@ -1,7 +1,7 @@
 function validate() {
-  const name1 = getElementById("name1");
-  const number = getElementById("number");
-  const message = getElementById("message");
+  const name1 = document.getElementById("name1");
+  const number = document.getElementById("number");
+  const message = document.getElementById("message");
 
   if (name1.value == "" || number.value == "");
   {

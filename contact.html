@@ -43,21 +43,22 @@
             Do you have a question? Please inquire below
           </p>
         </div>
+        <div id="error"></div>
         <form action="./index.html" onsubmit = "validate()">
           <label for="Name">Name:
           <br />
-          <input type="text" placeholder="Name" id="name1" />
+          <input type="text" placeholder="Name" id="name1" name="name"/>
           </label>
           <br />
           <label for="Phone">Phone
           <br />
-          <input type="number" placeholder="Number" id="number" />
+          <input type="number" placeholder="Number" id="number" name="number" />
           </label>
           <br />
           <label for="Message">Message:
           <br />
           <textarea
-            name=""
+            name="message"
             id="message"
             placeholder="Write your inquiries here"
             cols="60"
@@ -88,6 +89,6 @@
           </div>
       </subSection>
     </section>
-    <script src="./assets/js/index.js"></script>
+    <script defer src="/assets/js/index.js"></script>
   </body>
 </html>
