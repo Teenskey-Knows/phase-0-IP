@@ -201,6 +201,28 @@
   padding: 0.9rem;
 }
 
+#structure{
+  margin-left: 2rem;
+  padding: 2rem;
+}
+
+.label1{
+  font-size: 1.3rem;
+  
+}
+.label2{
+  font-size: 1.3rem;
+}
+.label3{
+  font-size: 1.3rem;}
+input{
+  width: 70%;
+  height: 3rem;
+}
+.button{
+  padding: 1rem;
+}
+
 /* ......About Me Section...... */
 .divider{
   background-color: #eb5f10;
