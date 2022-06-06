@@ -11,7 +11,7 @@
     <section class="section3">
       <div class="main1">
         <div class="navBarMain">
-          <a class="barLinks" href="#home"><nav class="mybars">Home</nav></a>
+          <a class="barLinks" href="./index.html"><nav class="mybars">Home</nav></a>
           <a class="barLinks" href="/portfolio.html"
             ><nav class="mybars">Portfolio</nav></a
           >
@@ -43,16 +43,18 @@
             Do you have a question? Please inquire below
           </p>
         </div>
-        <form action="">
-          <label for="Name">Name:</label>
+        <form action="./index.html" onsubmit = "validate()">
+          <label for="Name">Name:
           <br />
           <input type="text" placeholder="Name" id="name1" />
+          </label>
           <br />
-          <label for="Phone">Phone</label>
+          <label for="Phone">Phone
           <br />
           <input type="number" placeholder="Number" id="number" />
+          </label>
           <br />
-          <label for="Message">Message:</label>
+          <label for="Message">Message:
           <br />
           <textarea
             name=""
@@ -61,11 +63,25 @@
             cols="60"
             rows="10"
           ></textarea>
+          </label>
+          l
           <br /><br />
           <button type="submit">Submit</button>
         </form>
       </div>
+      <!-- ......About Me Section....... -->
+      <subSection class="aboutMe">
+          <div class="divider"></div>
+          <div class="image">
+              <img src="./assets/images/background.jpg" alt="" class="Me">
+              <div class="meContent">
+                  <br>
+                  <a class ="gitHub" href="https://github.com/Thecodingobare" target="_blank">Daniel Okebiro Obare</a>
+
+              </div>
+          </div>
+      </subSection>
     </section>
-    <script src="/assets/css/js/index.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
